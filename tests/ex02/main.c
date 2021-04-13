@@ -8,8 +8,11 @@ int	main(void)
 	char dest[30];
 	char *result;
 
-	for (int i = 0; i < 4; i++)
-		dest[i] = 'a';
+	for (int i = 0; i < 30; i++)
+		if (i < 4)
+			dest[i] = 'a';
+		else
+			dest[i] = '\0';
 	printf("sua funcao:\n");
 	printf("src:      %s\n", src);
 	printf("dest:     %s\n", dest);
