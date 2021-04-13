@@ -6,7 +6,7 @@
 /*   By: psergio- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/12 12:33:26 by psergio-          #+#    #+#             */
-/*   Updated: 2021/04/12 13:05:06 by psergio-         ###   ########.fr       */
+/*   Updated: 2021/04/13 11:55:41 by psergio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,5 +62,5 @@ char			*ft_strstr(char *str, char *to_find)
 			return (match_start);
 		i++;
 	}
-	return (NULL);
+	return (0);
 }
